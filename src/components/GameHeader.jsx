@@ -1,0 +1,11 @@
+export const GameHeader = () => {
+  return (
+    <div className="game-header">
+      <h1>🎮 Memory Card Game</h1>
+      <div className="stats">
+        <div className="stat-item">Score: 0</div>
+        <div className="stat-item">Move: 0</div>
+      </div>
+    </div>
+  );
+};
